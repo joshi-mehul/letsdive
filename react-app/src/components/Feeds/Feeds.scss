@@ -1,0 +1,22 @@
+.feed-pan {
+  height: calc(100vh - 67px);
+  background-color: rgba(0,0,0, .08);
+  overflow-x: scroll;
+
+  .feed {
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem;
+    border-bottom: 1px solid rgba(0,0,0, .2);
+
+    img {
+      height: 35px;
+    }
+
+    h5 {
+      color: #111111;
+      padding: 1.3rem;
+    }
+  }
+}
+

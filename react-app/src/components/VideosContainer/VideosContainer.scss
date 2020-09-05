@@ -1,0 +1,15 @@
+.videos-container {
+  .row-item {
+    padding: .5rem 1rem;
+
+    &.row {
+      justify-content: flex-start;
+      padding-left: 3rem;
+      padding-bottom: 1.5rem;
+    }
+
+    iframe {
+      margin: .5rem;
+    }
+  }
+}
